@@ -1,0 +1,11 @@
+Model,Dataset,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+Logistic Regression,Telco,0.7531,0.522,0.8036,0.6329,0.8535
+XGBoost,Telco,0.7796,0.5693,0.6893,0.6236,0.8559
+Decision Tree,Telco,0.7682,0.5499,0.6893,0.6117,0.8256
+SVM,Telco,0.7711,0.5565,0.6679,0.6071,0.8159
+Random Forest,Telco,0.7852,0.593,0.6036,0.5982,0.833
+XGBoost,India,0.6951,0.6901,0.6863,0.6882,0.7695
+Random Forest,India,0.6911,0.6835,0.689,0.6862,0.7642
+Logistic Regression,India,0.672,0.6605,0.6809,0.6705,0.738
+SVM,India,0.6707,0.6622,0.67,0.6661,0.7335
+Decision Tree,India,0.6813,0.69,0.6355,0.6616,0.7373

@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Executed notebooks (large embedded images — run from source)
+notebooks/*_executed.ipynb
+
+# Root-level data duplicates (canonical copies are in data/raw/)
+Telco_customer_churn.xlsx
+indian_telecom_customers.csv
+
+# OS
+.DS_Store

@@ -1,0 +1,11 @@
+Split,Accuracy,Precision,Recall,F1-Score,ROC-AUC,Model,Dataset,Best Params,Train Time
+Validation,0.7588,0.532,0.7687,0.6288,0.8503,Logistic Regression,Telco,"{'C': 1, 'solver': 'liblinear'}",5.6s
+Validation,0.772,0.5592,0.6726,0.6107,0.8298,Decision Tree,Telco,"{'criterion': 'entropy', 'max_depth': 6, 'min_samples_split': 2}",1.4s
+Validation,0.7909,0.6136,0.5765,0.5945,0.8347,Random Forest,Telco,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}",9.5s
+Validation,0.7786,0.5723,0.6619,0.6139,0.8167,SVM,Telco,{'C': 10},29.7s
+Validation,0.7919,0.5921,0.6975,0.6405,0.8521,XGBoost,Telco,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",8.9s
+Validation,0.6653,0.6639,0.6428,0.6532,0.7371,Logistic Regression,India,"{'C': 0.01, 'solver': 'liblinear'}",0.8s
+Validation,0.6662,0.686,0.5884,0.6335,0.7232,Decision Tree,India,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_split': 2}",2.8s
+Validation,0.6907,0.6947,0.6582,0.676,0.7594,Random Forest,India,"{'max_depth': 6, 'min_samples_split': 2, 'n_estimators': 200}",15.5s
+Validation,0.6609,0.6601,0.6355,0.6476,0.7225,SVM,India,{'C': 1},146.2s
+Validation,0.6916,0.6972,0.6555,0.6757,0.7661,XGBoost,India,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}",18.9s
